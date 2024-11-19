@@ -21,6 +21,8 @@ main {
     justify-content: center;
     gap: 1rem;
     margin: 1% auto 1% auto;
+    transition: transform 0.3s ease-in-out;
+    
 }
 
 .cards-bottom {
@@ -29,7 +31,16 @@ main {
     justify-content: center;
     gap: 1rem;
     margin: 0 auto 1% auto;
-}
+    transition: transform 0.3s ease-in-out;
+    }
+
+    .cards-bottom:hover {
+        transform: scale(1.05);
+        }
+
+    .cards-top:hover {
+         transform: scale(1.05);
+        }
 
 /* informações das princesas: nome e website */
 .name-princess {
